@@ -11,15 +11,60 @@
     background-color: white;
 }
 
-.contenedor-header {
+.contenedor-logo {
     display: flex;
 }
+
 
 .imagen {
     width: 150px;
     height: 100px;
     margin-right: 400px;
 }
+
+
+
+.contenedor-ventas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    padding-right: 3%;
+    color: gray;
+}
+
+
+.ventas-2 {
+    margin-right: 5px;
+}
+
+.telefono-2 {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
+
+.tel-ventas {
+    margin-right: 2px;
+}
+
+.whatsapp-2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+}
+
+.what-ventas {
+    margin-left: 2px;
+}
+
+.contenedor-horario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    padding-right: 3%;
+    color: gray;
+}
+
 
 
 .flex-links {
@@ -40,11 +85,11 @@
 }
 
 .search-box {
-    background-color: darkturquoise;
-    padding: 5%;
+    background-image:url(media/img/louvre.jpg);
+    background-size: 100%;
+    padding: 4%;
     justify-content: inherit;
     border-radius: 7px;
-    
 }
 
 
@@ -66,7 +111,6 @@
     border-radius: 5px;
     color: black;
     font-family: Righteous, Verdana, Tahoma, sans-serif;
-    text-align: center;
 }
 
 .botonbuscar:hover {
@@ -79,7 +123,7 @@
 .flex-container {
 display: flex;
 flex-wrap: wrap;
-padding: 6%;
+padding: 4%;
 justify-content:center;
 gap: 10px;
 }
@@ -109,7 +153,8 @@ font-size: small;
     color: black;
     font-family: Righteous, Verdana, Tahoma, sans-serif;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
+    margin: 15px;
 }
 
 .boton1:hover {
@@ -122,7 +167,7 @@ font-size: small;
 .brasil {
 border: 5px solid #FC7A1E; 
 border-radius: 7px;
-text-align: center;  
+text-align: center;
 }
 
 .europa {
@@ -161,20 +206,19 @@ border-radius: 7px;
 text-align: center;  
 }
 
-.formulario-original {
- padding: 3%;
- }
+.contenedor-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #E7E7E7;
+    padding: 20px;
+}
+
 
 .formulario {
-    border: 2px solid gray; 
-    background-color: #F9C784;
-    border-radius: 10px;
-    padding: 4%;
-    text-align:center;
-}  
-
-.consultas {
- font-size:x-large;
+    border: 3px solid gray;
+    border-radius: 30px;
+    text-align: center;
 }
 
 .boton {
@@ -190,124 +234,4 @@ text-align: center;
    color: white;
    font-family: Righteous, Verdana, Tahoma, sans-serif;
    cursor: pointer; 
-}
-
-.contenedor-footer {
-   display: flex;
-   gap: 25px;
-   flex-wrap: wrap;
-   background-color: rgb(119, 119, 119); 
-   color: #E7E7E7;  
-   justify-content: space-between;
-}
-
-
-.logo2 {
-   width: 100px;
-   height: 100px;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: left;
-   padding: 5%;
-   gap: 15px;
-}
-
-.ventas {
-   color: white;
-   font-size: x-large;
-   position: relative;
-   left: 30px;
-   bottom: 10px;
-}
-
-.whatsapp {
-   width: 40px;
-   height: 40px;
-   position: relative;
-   right:60px;
-   top: 60px;
-}
-
-.numerowh {
-   color: white;
-   font-size: large;
-   position: relative;
-   left:80px;
-   top:25px;
-}
-
-.telefono-ventas {
-   width: 40px;
-   height: 40px;
-   position: relative;
-   left:20px;
-   top: 40px;
-}
-
-.numerotel {
-   color: white;
-   font-size: large;
-   position: relative;
-   left: 80px;
-   top: 5px;
-}
-
-.sucursales {
-   color: white;
-   font-size: x-large;
-   display: flex;  
-   flex-wrap: wrap;
-   justify-content: center;
-   padding: 5%;
-}
-
-.iframe {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   padding: 3%; 
-}
-
-.flex-iconos {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    justify-content:right;
-    padding:1%;
-}
-
-.seguinos {
-   color: white;
-   font-size: x-large;
-   margin-right: 50px;
-}
-
-.instagram {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    right: 40px;
-    bottom: 5px;  
-}
-
-.facebook {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    right: 40px;
-    bottom: 5px; 
-}
-
-.linkedin {
-    width: 40px;
-    height: 40px;
-    position: relative;
-    right: 40px;
-    bottom: 5px;  
-}
-
-.horarios-atención {
-    color: white;
-    font-size: large;
-    margin-left: 20px;
 }
