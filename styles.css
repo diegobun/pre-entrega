@@ -13,22 +13,20 @@
 
 .contenedor-logo {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
 .imagen {
     width: 150px;
     height: 100px;
-    margin-right: 400px;
 }
-
 
 
 .contenedor-ventas {
     display: flex;
     flex-wrap: wrap;
     justify-content:right;
-    padding-right: 3%;
     color: gray;
 }
 
@@ -41,6 +39,7 @@
     width: 20px;
     height: 20px;
     margin: 1px;
+    margin-right: 4px;
 }
 
 .tel-ventas {
@@ -50,18 +49,18 @@
 .whatsapp-2 {
     width: 20px;
     height: 20px;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .what-ventas {
-    margin-left: 2px;
+    margin-left: 3px;
 }
 
 .contenedor-horario {
     display: flex;
     flex-wrap: wrap;
     justify-content:right;
-    padding-right: 3%;
+    padding-right: 15px;
     color: gray;
 }
 
@@ -74,9 +73,28 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: #FC7A1E;
-    color: #E7E7E7;
-    font-size: 18px;
+    font-size: 25px;
     padding: 2%;
+}
+
+.paquetes {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.vuelos {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.alojamientos {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.asistencia {
+    color: #E7E7E7;
+    text-decoration: none;
 }
 
 .busqueda-section {
@@ -219,6 +237,7 @@ text-align: center;
     border: 3px solid gray;
     border-radius: 30px;
     text-align: center;
+    width: 400px;
 }
 
 .boton {
@@ -234,4 +253,27 @@ text-align: center;
    color: white;
    font-family: Righteous, Verdana, Tahoma, sans-serif;
    cursor: pointer; 
+}
+
+input[type=text],[type=email],[type=number] {
+border: 2px solid black;
+border-radius: 5px; 
+padding: 1px; 
+margin: 2px;  
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+textarea[name=mensajeusuario] {
+border: 2px solid black;
+border-radius: 5px; 
+padding: 1px;
+margin: 2px;   
+}
+
+.error {
+ color: #F24C00;
 }
